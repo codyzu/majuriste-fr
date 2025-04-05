@@ -5,6 +5,7 @@ const xoConfig: FlatXoConfig = [
     space: true,
     prettier: true,
     react: true,
+    semicolon: true,
     rules: {
       'react/react-in-jsx-scope': 'off',
     },

@@ -8,7 +8,7 @@ export default defineConfig({
   integrations: [
     react(),
     unoCSS({
-      injectReset: true, // Or a path to the reset file
+      injectReset: '@unocss/reset/tailwind.css',
     }),
   ],
 });
