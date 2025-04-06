@@ -17,6 +17,7 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@iconify-json/hugeicons": "^1.2.4",
     "@unocss/preset-icons": "66.1.0-beta.9",
     "@unocss/preset-typography": "66.1.0-beta.9",
     "@unocss/preset-uno": "66.1.0-beta.9",

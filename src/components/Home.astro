@@ -8,83 +8,96 @@ import data from '../data';
   <p class="text-lg">Juriste en Droit des Étrangers</p>
 </header>
 
-<section
-  class="bg-neutral-900 flex flex-col lg:flex-row items-center justify-between px-6 py-16 gap-8"
->
-  <div class="lg:w-1/2 space-y-6 flex flex-col">
-    <h1 class="text-4xl font-bold">
-      Accompagner votre parcours, défendre vos droits
-    </h1>
-    <p class="text-lg">
-      Un accompagnement juridique personnalisé pour les démarches de séjour, de
-      régularisation et de naturalisation en France.
-    </p>
-    <div class="flex flex-row gap-4">
-      <button class="bg-white text-black font-semibold px-6 py-2 rounded"
-        >Prendre rendez-vous</button
-      >
-      <button class="bg-white text-black font-semibold px-6 py-2 rounded"
-        >En savoir plus</button
-      >
-    </div>
-  </div>
-  <div class="lg:w-1/3 flex justify-center">
-    <img src={logo.src} alt="Logo de juriste" class="mx-auto w-64" />
-  </div>
-</section>
-
-<section class="max-w-4xl mx-auto px-6 py-16 flex flex-col">
-  <h2 class="text-2xl font-bold mb-4">À propos de {data.name}</h2>
-  <p>
-    Juriste engagée en droit des étrangers, elle met ses compétences juridiques
-    au service des personnes migrantes. Grâce à une approche humaine, claire et
-    efficace, elle vous accompagne dans vos démarches administratives et
-    judiciaires en toute confiance.
-  </p>
-</section>
-
-<section class="max-w-4xl mx-auto px-6 py-16 flex flex-col">
-  <h2 class="text-2xl font-bold mb-6">Domaines d'intervention</h2>
-  <div class="grid md:grid-cols-2 gap-4 mb-6">
-    <div class="bg-neutral-800 p-4 rounded">
-      Demandes de titre de séjour et de visa
-    </div>
-    <div class="bg-neutral-800 p-4 rounded">Naturalisation et citoyenneté</div>
-    <div class="bg-neutral-800 p-4 rounded">Recours et contentieux</div>
-    <div class="bg-neutral-800 p-4 rounded">Regroupement familial</div>
-    <div class="bg-neutral-800 p-4 rounded">
-      Autorisations de travail et titres étudiants
-    </div>
-  </div>
-  <button class="bg-white text-black font-semibold px-6 py-2 rounded"
-    >Premier échange gratuit</button
+<main class="flex flex-col items-center">
+  <section
+    class="bg-neutral-900 flex flex-col lg:flex-row items-center justify-between px-6 py-16 gap-8"
   >
-</section>
-
-<section class="max-w-4xl mx-auto px-6 py-16 flex flex-col">
-  <h2 class="text-2xl font-bold mb-6">Témoignages</h2>
-  <div class="flex flex-col gap-4">
-    <div class="bg-neutral-800 p-4 rounded">
-      "Grâce à MaJuriste, j'ai enfin obtenu mon titre de séjour. Elle a su
-      m'expliquer chaque étape avec clarté et bienveillance." – Aissatou D.
+    <div class="lg:w-1/2 space-y-6 flex flex-col">
+      <h1 class="text-4xl font-bold">
+        Accompagner votre parcours, défendre vos droits
+      </h1>
+      <p class="text-lg">
+        Un accompagnement juridique personnalisé pour les démarches de séjour,
+        de régularisation et de naturalisation en France.
+      </p>
+      <div class="flex flex-row gap-4">
+        <button class="bg-white text-black font-semibold px-6 py-2 rounded"
+          >Prendre rendez-vous</button
+        >
+        <button class="bg-white text-black font-semibold px-6 py-2 rounded"
+          >En savoir plus</button
+        >
+      </div>
     </div>
-    <div class="bg-neutral-800 p-4 rounded">
-      "Professionnelle, efficace et à l'écoute. Je me suis senti accompagné du
-      début à la fin." – Ibrahim K.
+    <div class="lg:w-1/3 flex justify-center">
+      <img src={logo.src} alt="Logo de juriste" class="w-64" />
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="max-w-4xl mx-auto px-6 py-16 flex flex-col items-center">
-  <h2 class="text-2xl font-bold mb-4">Prêt·e à avancer ?</h2>
-  <p class="mb-6">Faisons ensemble le premier pas.</p>
-  <div class="leading-relaxed flex flex-col items-center">
-    <div><strong>Prendre rendez-vous</strong></div>
-    <div>📞 {data.phone}</div>
-    <div>✉️ {data.email}</div>
-    <div>📍 Annecy & consultations à distance disponibles</div>
-  </div>
-</section>
+  <section class="max-w-4xl px-6 py-16 flex flex-col">
+    <h2 class="text-2xl font-bold mb-4">À propos de {data.name}</h2>
+    <p>
+      Juriste engagée en droit des étrangers, elle met ses compétences
+      juridiques au service des personnes migrantes. Grâce à une approche
+      humaine, claire et efficace, elle vous accompagne dans vos démarches
+      administratives et judiciaires en toute confiance.
+    </p>
+  </section>
+
+  <section class="max-w-4xl px-6 py-16 flex flex-col">
+    <h2 class="text-2xl font-bold mb-6">Domaines d'intervention</h2>
+    <div class="grid md:grid-cols-2 gap-4 mb-6">
+      <div class="bg-neutral-800 p-4 rounded">
+        Demandes de titre de séjour et de visa
+      </div>
+      <div class="bg-neutral-800 p-4 rounded">
+        Naturalisation et citoyenneté
+      </div>
+      <div class="bg-neutral-800 p-4 rounded">Recours et contentieux</div>
+      <div class="bg-neutral-800 p-4 rounded">Regroupement familial</div>
+      <div class="bg-neutral-800 p-4 rounded">
+        Autorisations de travail et titres étudiants
+      </div>
+    </div>
+    <button class="bg-white text-black font-semibold px-6 py-2 rounded"
+      >Premier échange gratuit</button
+    >
+  </section>
+
+  <section class="max-w-4xl px-6 py-16 flex flex-col">
+    <h2 class="text-2xl font-bold mb-6">Témoignages</h2>
+    <div class="flex flex-col gap-4">
+      <div class="bg-neutral-800 p-4 rounded">
+        "Grâce à MaJuriste, j'ai enfin obtenu mon titre de séjour. Elle a su
+        m'expliquer chaque étape avec clarté et bienveillance." – Aissatou D.
+      </div>
+      <div class="bg-neutral-800 p-4 rounded">
+        "Professionnelle, efficace et à l'écoute. Je me suis senti accompagné du
+        début à la fin." – Ibrahim K.
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl px-6 py-16 flex flex-col items-center">
+    <h2 class="text-2xl font-bold mb-4">Prêt·e à avancer ?</h2>
+    <p class="mb-6">Faisons ensemble le premier pas.</p>
+    <div class="leading-relaxed flex flex-col items-center">
+      <h3 class="font-bold">Prendre rendez-vous</h3>
+      <div class="flex flex-row items-center gap-2">
+        <div class="i-hugeicons-smart-phone-01 text-lg"></div>
+        <div>{data.phone}</div>
+      </div>
+      <div class="flex flex-row items-center gap-2">
+        <div class="i-hugeicons-mail-01 text-lg"></div>
+        <div>{data.email}</div>
+      </div>
+      <div class="flex flex-row items-center gap-2">
+        <div class="i-hugeicons-location-01 text-lg"></div>
+        <div>Annecy & consultations à distance disponibles</div>
+      </div>
+    </div>
+  </section>
+</main>
 
 <footer class="bg-neutral-900 py-6 text-sm flex flex-col items-center">
   <div>{data.name} • Juriste en droit des étrangers</div>

@@ -1,5 +1,6 @@
 import {
   defineConfig,
+  presetIcons,
   presetWebFonts,
   presetWind3,
   transformerDirectives,
@@ -9,6 +10,12 @@ import {
 export default defineConfig({
   presets: [
     presetWind3(),
+    presetIcons({
+      extraProperties: {
+        display: 'inline-block',
+        'vertical-align': 'middle',
+      },
+    }),
     presetWebFonts({
       provider: 'google',
       fonts: {
