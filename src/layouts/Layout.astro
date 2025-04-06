@@ -11,7 +11,11 @@ const pageTitle = `MaJuriste.fr${title ? ` - ${title}` : ''}`;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href={new URL('/favicon.svg', Astro.url)}
+    />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
