@@ -1,5 +1,5 @@
 const data = {
-  name: 'Eide Etecoute',
+  name: 'Mrs. Z.',
   phone: '06 25 89 21 12',
   email: 'myaddress@hotmail.fr',
 };
