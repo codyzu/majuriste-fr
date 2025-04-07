@@ -1,6 +1,7 @@
 import {
   defineConfig,
   presetIcons,
+  presetTypography,
   presetWebFonts,
   presetWind3,
   transformerDirectives,
@@ -10,6 +11,7 @@ import {
 export default defineConfig({
   presets: [
     presetWind3(),
+    presetTypography(),
     presetIcons({
       extraProperties: {
         display: 'inline-block',

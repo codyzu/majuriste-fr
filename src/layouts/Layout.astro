@@ -1,4 +1,6 @@
 ---
+import data from '../data';
+
 interface Props {
   title?: string;
 }
@@ -16,13 +18,27 @@ const pageTitle = `MaJuriste.fr${title ? ` - ${title}` : ''}`;
     <title>{pageTitle}</title>
   </head>
   <body>
-    <slot />
-  </body>
-</html>
+    <header class="text-center py-8 flex flex-col">
+      <h2 class="text-3xl font-bold">{data.name}</h2>
+      <p class="text-lg">Juriste en Droit des Étrangers</p>
+    </header>
 
-<style>
-  html,
-  body {
-    --uno: 'm-0 w-full h-full bg-black text-white font-sans';
-  }
-</style>
+    <main class="flex flex-col items-center">
+      <slot />
+    </main>
+
+    <footer class="bg-neutral-900 py-6 text-sm flex flex-col items-center">
+      <div>{data.name} • Juriste en droit des étrangers</div>
+      <div>
+        Mentions légales | Politique de confidentialité | Site réalisé par Cody
+      </div>
+    </footer>
+  </body>
+
+  <style>
+    html,
+    body {
+      --uno: 'm-0 w-full h-full bg-black text-white font-sans';
+    }
+  </style>
+</html>
