@@ -60,5 +60,5 @@ Dans un contexte où les inégalités d’accès à l’information et à la jus
 
 Mrs. Z, juriste en droit des étrangers, propose un accompagnement humain, engagé et professionnel à toutes celles et ceux qui souhaitent avancer avec confiance dans leurs démarches administratives ou contentieuses.
 
-📞 06 18 75 81 28  
+📞 +33 (0)6 18 75 81 28  
 ✉️ contact@majuriste.fr
