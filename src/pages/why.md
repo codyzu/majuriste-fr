@@ -58,7 +58,7 @@ Dans un contexte où les inégalités d’accès à l’information et à la jus
 
 **En conclusion**, faire appel à une juriste spécialisée en droit des étrangers n’est pas un luxe, mais bien une nécessité dans de nombreuses situations. C’est un choix de rigueur, de clarté et de sérénité face à un droit exigeant et à des démarches qui ne laissent pas de place à l’improvisation.
 
-Zaharatou Zuschlag, juriste en droit des étrangers, propose un accompagnement humain, engagé et professionnel à toutes celles et ceux qui souhaitent avancer avec confiance dans leurs démarches administratives ou contentieuses.
+Mrs. Z, juriste en droit des étrangers, propose un accompagnement humain, engagé et professionnel à toutes celles et ceux qui souhaitent avancer avec confiance dans leurs démarches administratives ou contentieuses.
 
 📞 06 18 75 81 28  
-✉️ faxine@hotmail.fr
+✉️ contact@majuriste.fr
