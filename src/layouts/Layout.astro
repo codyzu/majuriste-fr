@@ -1,4 +1,5 @@
 ---
+import Seo from '../components/Seo.astro';
 import data from '../data';
 
 interface Props {
@@ -22,6 +23,8 @@ const pageTitle = `MaJuriste.fr${title ? ` - ${title}` : ''}`;
     />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
+
+    <Seo />
   </head>
   <body>
     <header class="text-center py-8 flex flex-col">
@@ -40,11 +43,11 @@ const pageTitle = `MaJuriste.fr${title ? ` - ${title}` : ''}`;
       </div>
     </footer>
   </body>
-
-  <style>
-    html,
-    body {
-      --uno: 'm-0 w-full h-full bg-black text-white font-sans';
-    }
-  </style>
 </html>
+
+<style>
+  html,
+  body {
+    --uno: 'm-0 w-full h-full bg-black text-white font-sans';
+  }
+</style>
