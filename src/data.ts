@@ -1,7 +1,7 @@
 const data = {
   name: 'Mrs. Z.',
-  phone: '06 25 89 21 12',
-  email: 'myaddress@hotmail.fr',
+  phone: '+33 (0)6 18 75 81 28',
+  email: 'contact@majuriste.fr',
 };
 
 export default data;
