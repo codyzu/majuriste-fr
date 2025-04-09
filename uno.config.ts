@@ -36,4 +36,11 @@ export default defineConfig({
     }),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
+  safelist: [
+    // These classes are added in JS script tags
+    // Seems that astro does not send those to unocss
+    'animate-slide-in-left',
+    'animate-slide-in-right',
+    'animate-fade-in',
+  ],
 });
