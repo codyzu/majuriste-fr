@@ -27,19 +27,27 @@ const pageTitle = `MaJuriste.fr${title ? ` - ${title}` : ''}`;
     <Seo />
   </head>
   <body>
-    <header class="text-center py-8 flex flex-col">
-      <h2 class="text-3xl font-bold">{data.name}</h2>
-      <p class="text-lg">Juriste en Droit des Étrangers</p>
+    <header class="text-center py-10 flex flex-col gap-4">
+      <h2 class="text-5xl font-bold">{data.name}</h2>
+      <p class="text-2xl">Juriste en Droit des Étrangers</p>
     </header>
 
     <main class="flex flex-col items-center">
       <slot />
     </main>
 
-    <footer class="bg-neutral-900 py-6 text-sm flex flex-col items-center">
+    <footer class="bg-neutral-900 py-10 text-sm flex flex-col items-center">
       <div>{data.name} • Juriste en droit des étrangers</div>
-      <div>
-        Mentions légales | Politique de confidentialité | Site réalisé par Cody
+      <div
+        class="grid lt-sm:grid-cols-1 grid-cols-[repeat(3,_auto)] justify-items-center"
+      >
+        <div class="px-2">Mentions légales</div>
+        <div class="border-l-white sm:border-l-2 px-2 box-content">
+          Politique de confidentialité
+        </div>
+        <div class="border-l-white sm:border-l-2 px-2 box-content">
+          Site réalisé par Cody
+        </div>
       </div>
     </footer>
   </body>
