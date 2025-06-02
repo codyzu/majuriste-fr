@@ -1,7 +1,7 @@
 const data = {
-  name: 'Mrs. Z.',
-  phone: '+33 (0)6 18 75 81 28',
-  email: 'contact@majuriste.fr',
+  name: 'Ta Juriste 2.0',
+  phone: '+33 (0)6 12 34 56 78',
+  email: 'tajuristeconseils@outlook.com',
 };
 
 export default data;
